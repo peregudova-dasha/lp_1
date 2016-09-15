@@ -423,6 +423,24 @@ footer .post .about {
   .container {
     max-width: 420px;
   }
+  header #menu button {
+    margin-top: 20px;
+  }
+  header #menu .navbar-right {
+    background: #303030;
+    padding: 0;
+    margin: 0;
+  }
+  header #menu .navbar-right li {
+    padding: 5px 30px;
+  }
+  header #menu .navbar-right li .hover {
+    display: none;
+  }
+  header #menu .navbar-collapse {
+    padding: 0;
+    border: none;
+  }
   header #head .title {
     padding: 70px 50px;
   }
