@@ -381,6 +381,9 @@ header #head .title .button a {
 #block9 .col-md-6 {
   padding: 40px 20px;
 }
+#block9 .container:hover {
+  background: #FBF6F3;
+}
 #block9 #button3 {
   background: #7b6c63;
   text-transform: uppercase;
