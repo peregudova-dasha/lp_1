@@ -509,6 +509,9 @@ footer .post .about {
   #block2 {
     padding: 80px 20px;
   }
+  #block2 .img {
+    display: none;
+  }
   #block3 {
     padding: 20px 20px 50px 20px;
   }
@@ -564,6 +567,9 @@ footer .post .about {
   }
   #block2 {
     padding: 80px 40px;
+  }
+  #block2 .img {
+    display: none;
   }
   #block3 {
     padding: 40px 40px 50px 40px;
