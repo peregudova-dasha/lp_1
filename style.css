@@ -140,6 +140,53 @@ header #head .title .button a {
   background-size: cover;
   height: 300px;
 }
+#block4 .ProgressBar,
+#block4 .ProgressBar-contentCircle {
+  display: table;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+#block4 .ProgressBar-circle,
+#block4 .ProgressBar-background {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  position: relative;
+  z-index: 10;
+}
+#block4 .ProgressBar-background {
+  stroke: #7b6c63;
+  stroke-width: 2;
+  z-index: 0;
+}
+#block4 .ProgressBar-percentage {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+#block4 .container {
+  width: 100%;
+}
+#block4 .List {
+  display: flex;
+  width: 800px;
+  height: 200px;
+}
+#block4 .List-item {
+  top: 50px;
+}
+#block4 p {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 7px 20px;
+}
 #block5 {
   padding: 80px 350px;
 }
@@ -465,6 +512,9 @@ footer .post .about {
   #block5 {
     padding: 80px 20px;
   }
+  #block4 {
+    display: none;
+  }
   #block7 {
     padding: 80px 20px;
   }
@@ -514,6 +564,9 @@ footer .post .about {
   }
   #block3 .container {
     padding: 0;
+  }
+  #block4 {
+    display: none;
   }
   #block5 {
     padding: 80px 40px;
